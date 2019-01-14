@@ -9,7 +9,9 @@ package prog_boletin_16;
  *
  * @author fsancheztemprano
  */
-public class Canario {
+public class Canario implements IPodeCantar{
+    
+    @Override
     public void cantar(){
         System.out.println("Canario Canta");
     }

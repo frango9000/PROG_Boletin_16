@@ -9,7 +9,9 @@ package prog_boletin_16;
  *
  * @author fsancheztemprano
  */
-public class Galo {
+public class Galo implements IPodeCantar {
+    
+    @Override
     public void cantar(){
         System.out.println("Galo Canta");
     }
