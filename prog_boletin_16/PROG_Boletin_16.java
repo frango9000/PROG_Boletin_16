@@ -15,7 +15,16 @@ public class PROG_Boletin_16 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Persona persona = new Persona();
+        persona.cantar();
+        
+        Galo galo = new Galo();
+        galo.cantar();
+        
+        Canario canario = new Canario();
+        canario.cantar();
+        
     }
     
 }
